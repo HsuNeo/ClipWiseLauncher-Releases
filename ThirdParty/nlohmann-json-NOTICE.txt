@@ -1,0 +1,6 @@
+JSON for Modern C++ 3.12.0 (MIT)
+Official single header: https://raw.githubusercontent.com/nlohmann/json/v3.12.0/single_include/nlohmann/json.hpp
+Official license: https://raw.githubusercontent.com/nlohmann/json/v3.12.0/LICENSE.MIT
+Header SHA256: AAF127C04CB31C406E5B04A63F1AE89369FCCDE6D8FA7CDDA1ED4F32DFC5DE63
+License SHA256: 46A65CFFD1EA955132D95A8DD921640714A8D6B537D2E4E482D31145AE95B603
+Only used by native identity JSON parsing; no additional runtime is required.

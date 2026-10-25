@@ -1,0 +1,62 @@
+Ant Design Icons SVG - shared website and WebView sprite
+
+Source package: @ant-design/icons-svg 4.6.0 (MIT)
+Package: https://registry.npmjs.org/@ant-design/icons-svg/-/icons-svg-4.6.0.tgz
+Repository: https://github.com/ant-design/ant-design-icons
+Package gitHead: 7f2516ac91226d2b41f93b35cb5197c8d94f7189
+License source: https://github.com/ant-design/ant-design-icons/blob/7f2516ac91226d2b41f93b35cb5197c8d94f7189/LICENSE
+Visual reference: 3X-UI v3.10.2; no 3X-UI business implementation is included.
+
+workspace.svg keeps the original SVG path data and per-symbol viewBox.
+All ordinary glyphs use the package's outlined variants; pin-filled uses filled/pushpin and star-filled uses filled/star.
+paper-landscape rotates the original FileOutlined paths 90 degrees without rewriting them.
+rows-compact, rows-standard and rows-loose are Eredge-owned density glyphs, drawn
+only because the source package has no matching three-state row-density set.
+They use the same 64 64 896 896 canvas, filled outlines and currentColor.
+
+Compatibility names -> source file in inline-svg/outlined/ unless noted:
+fullscreen -> fullscreen; fullscreen-exit -> fullscreen-exit
+dashboard -> dashboard; overview -> profile; folder -> folder; hierarchy -> apartment
+zoom-in -> zoom-in; zoom-out -> zoom-out
+paper-portrait -> file; paper-landscape -> file (rotated); page-fit -> column-width
+zero-source -> table; zero-show -> eye; zero-hide -> eye-invisible; thousands -> number
+chevron-left -> left; chevron-down -> down; chevron-right -> right
+library -> folder-open; restore -> undo; filter -> filter; columns -> table; refresh -> reload
+close -> close; close-all -> close-square; trash -> delete; search -> search
+expand -> plus-square; collapse -> minus-square; budget -> table
+quota -> read; formula -> function; resource -> unordered-list; materials -> build
+calculation-mark -> calculator; report -> file-text; settings -> setting; file -> file
+upload -> upload; warning -> warning; check -> check; pending -> clock-circle
+menu -> menu; pin -> pushpin; pin-filled -> inline-svg/filled/pushpin.svg
+sun -> sun; moon -> moon; more -> more; download -> download; logout -> logout; user -> user
+
+The MIT copyright and permission notice below is retained for these icons.
+
+MIT LICENSE
+
+Copyright (c) 2018-present Ant UED, https://xtech.antfin.com/
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Portal additions: portal-home -> home; portal-payment -> credit-card; portal-help -> question-circle.
+
+Calculator actions: menu-fold -> menu-fold; menu-unfold -> menu-unfold; edit -> edit; arrow-up -> arrow-up; arrow-down -> arrow-down; share -> export; link -> link; qrcode -> qrcode; read -> read; book -> book (all inline-svg/outlined/).
+
+Calculator toolbar: save -> save; copy -> copy (inline-svg/outlined/, same pinned package).
